@@ -37,7 +37,7 @@ public class Main {
 //ta metoda informuje ze nie dostanie karty
         public static void noQualify()
         {
-            JOptionPane.showMessageDialog(null,"Przykro nam. Nie otrzymasz karty");
+            JOptionPane.showMessageDialog(null,"Przykro nam. Nie otrzymasz karty kredytowej");
         }
     }
 
