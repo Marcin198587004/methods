@@ -11,6 +11,7 @@ public class ValueReturn {
 
         System.out.println("Suma liczb " + value1 + " i " + value2 + " wynosi " + total + ".");
     }
+<<<<<<< HEAD
 
     /**
      * Metoda sum zwraca sume dwoch parametrow
@@ -18,6 +19,8 @@ public class ValueReturn {
      ** @param num2 Druga z dodawanych liczb
      * @return Suma parametrów num1 i num2
      */
+=======
+>>>>>>> origin/master
    public static int sum(int num1,int num2)
 {
     int result;
