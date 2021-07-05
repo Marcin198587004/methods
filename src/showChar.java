@@ -6,19 +6,15 @@
 public class showChar {
     public static void main(String[] args) {
 
-        char city;
+        showChar("Warszawa", 4);
 
-
-        city = showChar("Warszawa",  (char)6);
-        System.out.println(city);
     }
 
-    public static char showChar(String name, char l) {
-        char letter;
-        letter = name.charAt(l);
-        return letter;
+    public static void showChar(String name, int l) {
+
+        char letter = name.charAt(l);
+        System.out.println(letter);
+
     }
-
-
 }
 
